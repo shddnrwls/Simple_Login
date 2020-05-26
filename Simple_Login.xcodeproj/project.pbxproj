@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		041620C9247D0FFF0087B549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041620C7247D0FFF0087B549 /* Main.storyboard */; };
 		041620CB247D10000087B549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041620CA247D10000087B549 /* Assets.xcassets */; };
 		041620CE247D10000087B549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041620CC247D10000087B549 /* LaunchScreen.storyboard */; };
+		04C7CECC247D17D000674F84 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7CECB247D17D000674F84 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		041620CA247D10000087B549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041620CD247D10000087B549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041620CF247D10000087B549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C7CECB247D17D000674F84 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		296828B1EA38F8E328202901 /* Pods-Simple_Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple_Login.debug.xcconfig"; path = "Target Support Files/Pods-Simple_Login/Pods-Simple_Login.debug.xcconfig"; sourceTree = "<group>"; };
 		4BBF900250A3EA1AEAA751E7 /* Pods_Simple_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simple_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		638DD28F6C235FCE355D0E38 /* Pods-Simple_Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simple_Login.release.xcconfig"; path = "Target Support Files/Pods-Simple_Login/Pods-Simple_Login.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				041620C1247D0FFF0087B549 /* AppDelegate.swift */,
 				041620C3247D0FFF0087B549 /* SceneDelegate.swift */,
 				041620C5247D0FFF0087B549 /* ViewController.swift */,
+				04C7CECB247D17D000674F84 /* LoginViewModel.swift */,
 				041620C7247D0FFF0087B549 /* Main.storyboard */,
 				041620CA247D10000087B549 /* Assets.xcassets */,
 				041620CC247D10000087B549 /* LaunchScreen.storyboard */,
@@ -80,7 +83,6 @@
 				296828B1EA38F8E328202901 /* Pods-Simple_Login.debug.xcconfig */,
 				638DD28F6C235FCE355D0E38 /* Pods-Simple_Login.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C7CECC247D17D000674F84 /* LoginViewModel.swift in Sources */,
 				041620C6247D0FFF0087B549 /* ViewController.swift in Sources */,
 				041620C2247D0FFF0087B549 /* AppDelegate.swift in Sources */,
 				041620C4247D0FFF0087B549 /* SceneDelegate.swift in Sources */,

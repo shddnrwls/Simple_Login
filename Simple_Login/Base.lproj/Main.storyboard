@@ -49,6 +49,9 @@
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tappedLoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jph-OP-vQO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -61,6 +64,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="jvF-E0-8jf" id="7iH-to-jXz"/>
+                        <outlet property="passwordTextField" destination="dPl-1r-Nua" id="CsB-Ia-BZ3"/>
+                        <outlet property="usernameTextField" destination="ihp-2x-YuB" id="IDv-TJ-6rI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
